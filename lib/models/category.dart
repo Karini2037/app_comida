@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+//construtor de categorias 
 class Category {
   final String id;
   final String title;
