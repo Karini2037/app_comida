@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:meals/screens/categoria_meals_screen.dart';
+
 import '../models/category.dart';
+import '../screens/categoria_meals_screen.dart'; 
 
 class CategoryItem extends StatelessWidget {
   final Category category;
@@ -48,3 +49,5 @@ class CategoryItem extends StatelessWidget {
     );
   }
 }
+
+
