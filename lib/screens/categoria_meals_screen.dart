@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../models/category.dart';
+import '../data/dummy_data.dart';
 // criando a página em branco
 class CategoriaMealsScreen extends StatelessWidget {
   const CategoriaMealsScreen({super.key});
@@ -10,7 +12,7 @@ class CategoriaMealsScreen extends StatelessWidget {
         title: const Text('Receitas'),
       ),
       body: const Center(
-        child:  Text('Receita por categoria'),
+        child:  Text(''),
       ),
     );
   }
